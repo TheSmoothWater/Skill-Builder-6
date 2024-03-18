@@ -10,15 +10,13 @@
 public class SkillBuilder6 {
 
     // replace this line with your constants
-    int tCount;
-    int yCount;
 
     public static String findTYPattern(String s) {
-        s.toLowerCase();
+        String temp = s.toLowerCase();
         String subString;
 
-        int firstT = s.indexOf('t');
-        int firstY = s.indexOf('y', firstT);
+        int firstT = temp.indexOf('t');
+        int firstY = temp.indexOf('y', firstT);
 
         if(firstY != -1){
             subString = s.substring(firstT, firstY + 1);
