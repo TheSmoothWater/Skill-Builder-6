@@ -25,7 +25,7 @@ public class SkillBuilder6 {
             return subString;
         }
         else{
-            return null;
+            return "";
         }
 
     }
